@@ -359,11 +359,11 @@ const Portfolio = () => {
               <div className="flex flex-1 flex-col p-4 sm:p-5 text-right">
                 <p className="fluid-body text-foreground mb-4">{cs.short}</p>
 
-                <div className="mt-auto flex self-start">
+                <div className="mt-auto flex justify-center">
                   <button
                     type="button"
                     onClick={() => setActive(cs)}
-                    className="inline-flex w-fit items-center justify-start gap-1.5 rounded-full bg-gold-rich px-3.5 py-2 text-xs font-bold text-gold-rich-foreground transition-all hover:brightness-110 focus:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                    className="inline-flex items-center justify-center gap-1.5 rounded-full border border-gold/50 bg-transparent px-4 py-2 text-xs font-bold text-primary transition-all hover:border-gold hover:bg-gold/5 focus:outline-none focus-visible:ring-2 focus-visible:ring-ring"
                   >
                     <span>شوف أرقام الحملة وطريقة التنفيذ</span>
                     <ArrowUpLeft className="h-3.5 w-3.5" aria-hidden="true" />

@@ -98,7 +98,7 @@ const Services = () => {
               <span className="relative z-10">عندك منتج وعايز تبني حملة إعلانية؟</span>
               <ArrowUpLeft className="relative z-10 h-4 w-4" aria-hidden="true" />
             </a>
-            <span className="fluid-label text-muted-foreground">*دوس على الشريط*</span>
+            <span className="fluid-label font-semibold text-gold-rich">*دوس على الشريط*</span>
           </span>
         </div>
       </div>

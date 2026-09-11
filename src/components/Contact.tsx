@@ -1,6 +1,6 @@
 import { motion } from '@/lib/nomotion';
-import { FaWhatsapp, FaLinkedinIn } from 'react-icons/fa';
-import { WHATSAPP_URL, LINKEDIN_URL } from '@/lib/links';
+import { FaWhatsapp } from 'react-icons/fa';
+import { WHATSAPP_URL } from '@/lib/links';
 
 
 const Contact = () => {
@@ -44,26 +44,6 @@ const Contact = () => {
             <span className="relative z-10 fluid-label text-gold-rich-foreground/80 font-semibold">*دوس على الشريط*</span>
           </motion.a>
 
-          <motion.a
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.4 }}
-            href={LINKEDIN_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="تواصل معي عبر لينكد إن"
-            className="group relative isolate flex flex-col items-center justify-center w-full overflow-hidden bg-[hsl(201,100%,35%)] hover:bg-[hsl(201,100%,30%)] text-white rounded-2xl py-4 sm:py-5 px-5 sm:px-6 shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 border border-[hsl(201,100%,35%)]/30"
-          >
-            <FaLinkedinIn
-              aria-hidden="true"
-              className="pointer-events-none absolute left-1/2 top-1/2 -z-10 -translate-x-1/2 -translate-y-1/2 text-[2.5em] text-white opacity-[0.28]"
-            />
-            <span className="relative z-10 fluid-h3 font-bold mb-2 text-center">
-              عايز تعرف أكتر عني ؟
-            </span>
-            <span className="relative z-10 fluid-label text-white font-semibold">*دوس على الشريط*</span>
-          </motion.a>
 
         </div>
       </div>

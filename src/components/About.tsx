@@ -32,7 +32,6 @@ const About = () => {
         {heading}
       </h2>
 
-      <p className="fluid-lead mb-4 font-semibold text-primary max-w-3xl">متخصص في</p>
 
       {paragraphs.map((text) => (
         <p key={text} className="fluid-body text-foreground mb-4 max-w-3xl leading-loose">

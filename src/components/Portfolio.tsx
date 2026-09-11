@@ -5,10 +5,10 @@ import caseImage from '@/assets/cases/case-image.png.asset.json';
 import caseImage2 from '@/assets/cases/case-image-2.png.asset.json';
 import caseImage3 from '@/assets/cases/case-image-3.png.asset.json';
 import caseImage4 from '@/assets/cases/case-image-4.png.asset.json';
-import card6 from '@/assets/cases/card-6.png.asset.json';
-import card7 from '@/assets/cases/card-7.png.asset.json';
-import card8 from '@/assets/cases/card-8.png.asset.json';
-import card9 from '@/assets/cases/card-9.png.asset.json';
+import card6 from '@/assets/cases/cover-new-1.png.asset.json';
+import card7 from '@/assets/cases/cover-new-2.png.asset.json';
+import card8 from '@/assets/cases/cover-new-3.png.asset.json';
+import card9 from '@/assets/cases/cover-new-4.png.asset.json';
 
 
 
@@ -344,31 +344,30 @@ const Portfolio = () => {
                     src={cs.cover}
                     alt={`غلاف حملة ${cs.name}`}
                     loading="lazy"
-                    className="w-full h-40 sm:h-44 object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03]"
+                    className="w-full h-auto object-contain transition-transform duration-700 ease-out group-hover:scale-[1.03]"
                   />
                 ) : (
                   <div
                     aria-hidden="true"
-                    className="flex h-40 sm:h-44 w-full items-center justify-center border-b border-border/60 bg-muted/30"
+                    className="flex aspect-[4/3] w-full items-center justify-center border-b border-border/60 bg-muted/30"
                   >
                     <ImageIcon className="h-8 w-8 text-muted-foreground/40" />
                   </div>
                 )}
               </div>
 
-              <div className="flex flex-1 flex-col p-5 sm:p-6 text-right">
-                <p className="fluid-body text-foreground mb-6">{cs.short}</p>
+              <div className="flex flex-1 flex-col p-4 sm:p-5 text-right">
+                <p className="fluid-body text-foreground mb-4">{cs.short}</p>
 
-                <div className="mt-auto flex flex-col items-center gap-1.5 self-start">
+                <div className="mt-auto flex self-start">
                   <button
                     type="button"
                     onClick={() => setActive(cs)}
-                    className="inline-flex w-fit items-center justify-start gap-1.5 rounded-full bg-gold-rich px-4 py-2.5 fluid-label font-bold text-gold-rich-foreground transition-all hover:brightness-110 focus:outline-none focus-visible:ring-2 focus-visible:ring-ring ms-4"
+                    className="inline-flex w-fit items-center justify-start gap-1.5 rounded-full bg-gold-rich px-3.5 py-2 text-xs font-bold text-gold-rich-foreground transition-all hover:brightness-110 focus:outline-none focus-visible:ring-2 focus-visible:ring-ring"
                   >
                     <span>شوف أرقام الحملة وطريقة التنفيذ</span>
                     <ArrowUpLeft className="h-3.5 w-3.5" aria-hidden="true" />
                   </button>
-                  <span className="fluid-label text-muted-foreground">*دوس على الشريط*</span>
                 </div>
               </div>
             </motion.article>

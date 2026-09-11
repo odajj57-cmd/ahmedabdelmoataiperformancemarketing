@@ -1,4 +1,4 @@
-import { PHONE_DISPLAY, PHONE_TEL } from "@/lib/links";
+import { PHONE_DISPLAY, FOOTER_WA_URL } from "@/lib/links";
 
 const Footer = () => {
   return (
@@ -27,9 +27,11 @@ const Footer = () => {
             </h3>
 
             <a
-              href={PHONE_TEL}
+              href={FOOTER_WA_URL}
+              target="_blank"
+              rel="noopener noreferrer"
               dir="ltr"
-              aria-label={`اتصل على ${PHONE_DISPLAY}`}
+              aria-label={`تواصل معي على واتساب ${PHONE_DISPLAY}`}
               className="fluid-h3 font-extrabold tracking-widest text-primary transition-colors hover:text-accent"
             >
               {PHONE_DISPLAY}

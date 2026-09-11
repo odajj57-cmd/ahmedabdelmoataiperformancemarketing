@@ -16,3 +16,10 @@ export const LINKEDIN_URL = "https://www.linkedin.com/in/ahmed-abdel-moati-a2b0a
 
 export const PHONE_DISPLAY = "010 03446823";
 export const PHONE_TEL = "tel:+201003446823";
+
+
+export const FOOTER_WA_URL =
+  "https://wa.me/201003446823?text=" +
+  encodeURIComponent(
+    "السلام عليكم ورحمة الله تعالى وبركاته، شفت البرتوفليو بتاعك، وعايز أعرف إزاي نشتغل على الbraند؟",
+  );

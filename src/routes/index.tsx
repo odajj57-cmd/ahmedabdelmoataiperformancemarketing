@@ -14,7 +14,7 @@ const title = "Ahmed Abdel Moati | Performance Marketer";
 const description =
   "ببني رحلة العميل من الإعلان لشراء المنتج أو الخدمة وبحول البيانات لقرارات ربحية تحقق هدف البراند";
 const OG_IMAGE =
-  "https://ahmedabdelmoati-performanmarkter.lovable.app/__l5e/assets-v1/8bccd553-9bca-4c8d-8610-e3a0ed3d8078/og-cover.jpg";
+  "https://master-site-build.lovable.app/__l5e/assets-v1/cf58b727-7f46-447c-96df-f7cb1a0a3d41/og-link.png";
 
 
 
